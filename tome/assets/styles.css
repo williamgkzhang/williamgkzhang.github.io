@@ -1,3 +1,6 @@
+#roller #main-toolbar {
+  margin: 0px 0 15px; }
+
 #roller #results .result {
   display: flex;
   padding: 0; }
@@ -13,3 +16,6 @@
     border: thin solid green; }
   #roller #results .result.fail .result-value {
     border: thin solid red; }
+
+#add-modal .modal-footer {
+  background-color: #DDD; }
