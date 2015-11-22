@@ -1,0 +1,15 @@
+#roller #results .result {
+  display: flex;
+  padding: 0; }
+  #roller #results .result .result-name {
+    flex: 1 0 auto;
+    padding: 8px 8px; }
+  #roller #results .result .result-value {
+    width: 50px;
+    padding: 8px;
+    text-align: center;
+    border-left: thin dotted #EEE; }
+  #roller #results .result.crit .result-value {
+    border: thin solid green; }
+  #roller #results .result.fail .result-value {
+    border: thin solid red; }
